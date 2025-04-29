@@ -1,0 +1,10 @@
+SiTH/data/
+./SiTH/checkpoints/
+./SiTH/data/body_models/smplx/
+./SiTH/data/examples/meshes/
+./SiTH/data/work_test_examples/
+./SiTH/data/smplx_watertight.pkl
+
+
+./CatVTON/resource/demo/output/
+
