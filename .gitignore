@@ -1,13 +1,53 @@
-SiTH/data/
-./SiTH/checkpoints/
-./SiTH/data/body_models/smplx/
-./SiTH/data/examples/meshes/
-./SiTH/data/work_test_examples/
-./SiTH/data/smplx_watertight.pkl
+# 忽略所有 checkpoints 和大模型文件
+SiTH/checkpoints/
+SiTH/data/body_models/smplx/
+SiTH/data/examples/meshes/
+SiTH/data/work_test_examples/
+SiTH/data/smplx_watertight.pkl
+SiTH/data/DWpose_test_examples/meshes/
+SiTH/data/DWpose_test_examples/back_images/
+SiTH/data/examples/back_images/
+SiTH/data/examples/smplx/
+SiTH/data/examples/meshes/
+SiTH/data/examples/back_images/all_images/
+SiTH/data/DWpose_test_examples/back_images/all_images/
+SiTH/data/DWpose_test_examples/meshes/
+SiTH/data/body_models/smplx/*.npz
+SiTH/data/body_models/smplx/*.pkl
+SiTH/data/body_models/smplx/*.zip
+SiTH/checkpoints/*.pth
 
-**/**/pyc
+# CatVTON 输出和大文件
+CatVTON/resource/demo/output/
+CatVTON/resource/demo/example/
+CatVTON/detectron2/_C.cpython-39-x86_64-linux-gnu.so
 
+# 忽略所有大于50M的常见文件类型
+*.pth
+*.pkl
+*.npz
+*.zip
+*.obj
+*.so
+*.gif
 
+**/**/*.pyc
+
+./SiTH/data/examples/meshes/*.obj
+./SiTH/data/work_test_examples/meshes/feidele-white_reco.obj
+./SiTH/data/DWpose_test_examples/meshes/000_reco.obj
 
 ./CatVTON/resource/demo/output/
 
+./SiTH/data/body_models/smplx/*.npz
+./SiTH/data/body_models/smplx/*.pkl
+
+./SiTH/data/body_models/smplx/models_smplx_v1_1.zip
+
+./CatVTON/detectron2/_C.cpython-39-x86_64-linux-gnu.so
+./CatVTON/resource/js/fontawesome.all.min.js
+./SiTH/data/smplx_uv.obj
+
+./SiTH/data/examples/back_images/all_images/*.png
+./SiTH/data/DWpose_test_examples/back_images/all_images/*.png
+./SiTH/data/DWpose_test_examples/meshes/*.obj
