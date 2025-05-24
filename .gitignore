@@ -5,6 +5,9 @@ SiTH/data/
 ./SiTH/data/work_test_examples/
 ./SiTH/data/smplx_watertight.pkl
 
+**/**/pyc
+
+
 
 ./CatVTON/resource/demo/output/
 
