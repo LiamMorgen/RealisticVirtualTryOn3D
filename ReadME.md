@@ -13,6 +13,11 @@
 
 ## 安装步骤
 
+注意：
+安装kaolin支持的torch版本（目前torch2.7不支持），说明：https://github.com/NVIDIAGameWorks/kaolin/
+pip install pydantic==2.10.6
+export HF_ENDPOINT=https://hf-mirror.com
+
 ### 1. 克隆代码仓库
 
 ```bash
@@ -22,6 +27,7 @@ cd DLBounty
 
 ### 2. 安装SiTH依赖
 参考`SiTH/README.md`
+来自：https://github.com/SiTH-Diffusion/SiTH
 
 ```bash
 cd SiTH
@@ -30,6 +36,7 @@ pip install -r requirements.txt
 
 ### 3. 安装CatVTON依赖
 参考`CatVTON/README.md`
+来自：https://github.com/Zheng-Chong/CatVTON
 
 ```bash
 cd ../CatVTON
